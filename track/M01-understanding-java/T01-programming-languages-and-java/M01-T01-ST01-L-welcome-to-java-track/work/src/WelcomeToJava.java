@@ -5,7 +5,7 @@ public class WelcomeToJava {
         System.out.println("Welcome to the java track");
         System.out.println("I already know how to build programmmig logic");
         System.out.println("Now I am learning how to express that logic using java");
-        System.out.println("Now i know how to use git hub");
+        System.out.println("Now i know how to use git and git hub");
 
     }
 }
