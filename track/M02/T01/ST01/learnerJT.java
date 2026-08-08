@@ -1,4 +1,4 @@
-public class studentPro {
+public class learnerJT {
     public static void main(String[] args) {
         // display student profile
         String learnerName = "Ananya";
