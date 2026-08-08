@@ -1,18 +1,32 @@
 public class conditional {
     public static void main(String[] args) {
-        // write your code here
-        int CompletedTopics = 17;
-        int totalTopics = 20;
-        int DailyLearningHours = 3;
-        int LearningDays = 5;
+        int number = -7;
+        int firstScore = 18;
+        int secondScore = 25;
         
-        int remainingTopics = totalTopics - CompletedTopics;
-        int weeklyLearningHours = DailyLearningHours * LearningDays;
-        double progressPercentage = (double) CompletedTopics * 100 / totalTopics;
         
-        System.out.println("Completed Topics: " + CompletedTopics);
-        System.out.println("Remaining Topics: " + remainingTopics);
-        System.out.println("Weekly Learning Hours: " + weeklyLearningHours);
-        System.out.println("Progress Percentage: " + progressPercentage);
+        if (number > 0) {
+            System.out.println("Number type: Positive");
+        } else if (number < 0) {
+            System.out.println("Number type: Negative");
+        } else {
+            System.out.println("Number type: Zero");
+        }
+        
+        
+        if (number % 2 == 0) {
+            System.out.println("Parity: Even");
+        } else {
+            System.out.println("Parity: Odd");
+        }
+        
+        
+        if (firstScore > secondScore) {
+            System.out.println("Comparison: First score is higher");
+        } else if (firstScore < secondScore) {
+            System.out.println("Comparison: Second score is higher");
+        } else {
+            System.out.println("Comparison: Scores are equal");
+        }
     }
 }
