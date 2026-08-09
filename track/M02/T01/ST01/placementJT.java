@@ -1,5 +1,5 @@
 
-public class placementRD {
+public class placementJT {
 
     public static void main(String[] args) {
         int marks = 72;
