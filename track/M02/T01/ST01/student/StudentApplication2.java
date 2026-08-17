@@ -1,9 +1,8 @@
-class Student{
+class Student {
     String name;
     int age;
     double height;
-
-    void input(String name,int age,double height){
+Student(String name,int age,double height){
         this.name = name;
         this.age = age;
         this.height = height;
@@ -15,4 +14,9 @@ class Student{
         System.out.println(height);
     }
 }
-class shadowing
+public class StudentApplication2 {
+    public static void main(String[] args){
+        Student s1 = new Student("Raja",18,4.5);
+        s1.display();
+    }
+}
