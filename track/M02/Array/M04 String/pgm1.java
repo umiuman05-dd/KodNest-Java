@@ -9,5 +9,12 @@ public class pgm1{
         {
             System.out.println("Ref are equal");
         }
+        if(s1.equalsIgnoreCase(s2))
+        {
+            System.out.printl("Strings are same");
+        }
+        else{
+            System.out.println("Strings are not same");
+        }
     }
 }
